@@ -29,3 +29,9 @@ namespace Full_GRASP_And_SOLID.Library
         }
     }
 }
+/* La clase AllinOnePrinter tiene codigo tanto para 
+ Destination.Console y otro para Destination.File.
+ Para que este codigo cumpla ocn el patron de polimorfismo
+en mi caso hago una interfaz llamada Iprinter. Luego hago los cambios necesarios donde AllInOnePrinter 
+estaba para ser cambiado por IPrinter.
+*/
