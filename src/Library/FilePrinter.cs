@@ -7,7 +7,7 @@ namespace Full_GRASP_And_SOLID.Library
     {
         public void PrintRecipe(Recipe recipe)
         {
-            File.WriteAllText("Ticket.txt", recipe.GetTextToPrint());
+            File.WriteAllText("Recipe.txt", recipe.GetTextToPrint());
         }
     }
 }
